@@ -11,7 +11,7 @@ docker-compose up -d
 
 docker run --name attu -p 8000:3000 -d -e MILVUS_URL={your machine IP} zilliz/attu:latest
 
-+ 2. 访问 localhost:9000 minio 服务，并手动将ILSVRC2012_img_val目录下的图片上传到minio
++ 2.访问 localhost:9000 minio 服务，并手动将ILSVRC2012_img_val目录下的图片上传到minio
 
 + 3.执行tools/MilvusTools.py 的主函数,想milvus服务插入并加载图片向量
 
